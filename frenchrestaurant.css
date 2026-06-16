@@ -38,30 +38,43 @@ body{
     color: var(--dark-wood);
 }
 
+h1, h2, h3{
+    text-align: center;
+}
+
 h1{
     font-size: var(--h1);
-    font-family: var(--font-sans);
+    font-family: var(--font-serif);
     font-weight: var(--heavy-weight);
 }
 
 h2{
     font-size: var(--h2);
-    font-family: var(--font-sans);
+    font-family: var(--font-serif);
     font-weight: var(--mild-weight);
 }
 
 h3{
     font-size: var(--h3);
-    font-family: var(--font-serif);
+    font-family: var(--font-sans);
     font-weight: var(--light-weight);
 }
 
 p{
     font-size: var(--p-size);
     font-weight: var(--mild-weight);
-    line-height: 10px;
-    font-family: var(--font-serif);
+    line-height: 20px;
+    font-family: var(--font-sans);
     text-align: center;
+}
+
+a, button{
+    text-decoration: none;
+    color: var(--wine-red);
+}
+
+a:hover, button:hover{
+    color: var(--wine-hover);
 }
 
 /*Header*/
