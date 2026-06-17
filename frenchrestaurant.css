@@ -79,6 +79,7 @@ a:hover, button:hover{
 
 li{
     list-style-type: none;
+    font-size: var(--p-size);
 }
 /*Header*/
 
@@ -95,4 +96,15 @@ h1.logo span{
     color: var(--wine-hover);
 }
 
-/*Navigation Bar/*
+/*Navigation Bar*/
+.french-navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+}
+
+.navigation-unit{
+    display: flex;
+    gap: 1.5em;
+}
