@@ -77,4 +77,22 @@ a:hover, button:hover{
     color: var(--wine-hover);
 }
 
+li{
+    list-style-type: none;
+}
 /*Header*/
+
+.logo{
+    line-height: 20px;
+}
+
+h1.logo{
+    font-size: 1.5em;
+}
+
+h1.logo span{
+    font-size: .5em;
+    color: var(--wine-hover);
+}
+
+/*Navigation Bar/*
