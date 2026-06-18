@@ -11,6 +11,7 @@
     --wine-red: #8B2635;
     --wine-hover: #6B1D28;
     --text-muted: #5A5250;
+    --golden-text: linear-gradient(135deg, #b58928 0%, #e6ca65 50%, #b58928 100%);
     
     --p-size: .9em;
     --header: 2em;
@@ -81,6 +82,13 @@ li{
     list-style-type: none;
     font-size: var(--p-size);
 }
+
+span{
+    background: var(--golden-text);
+    margin-top: 20px;
+    padding: 0 5px;
+    border-radius: 10px;
+}
 /*Header*/
 
 .logo{
@@ -116,22 +124,30 @@ h1.logo span{
 /*Hero section*/
 .hero{
     background: url(/french-restraurant-images/French-Bistro-Hero.jpg);
-    height: 60vh;
+    height: 100vh;
     background-size: cover;
     background-position: center;
     width: 100%;
     background-repeat: no-repeat;
+    align-items: center;
+    align-content: center;
+    text-align: center;
 }
 
 .hero-header{
     color: var(--cream);
     font-weight: var(--heavy-weight);
     font-family: var(--font-serif);
-    position: relative;
-    top: 20px;
+    line-height: 25px;
 }
 
 button.book-now{
-    margin-top: 40px;
-    margin-left: 20px;
+    margin-top: 30px;
+    width: 50%;
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background: var(--wine-red);
+    color: var(--cream);
+    font-family: var(--font-serif);
 }
