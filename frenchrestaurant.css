@@ -197,3 +197,9 @@ button.book-now{
 .information-text{
     line-height: 30px;
 }
+
+#events-text{
+    padding-top: 50px;
+    font-family: var(--font-serif);
+    font-size: .7em;
+}
