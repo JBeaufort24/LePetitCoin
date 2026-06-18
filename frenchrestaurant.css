@@ -7,6 +7,7 @@
 
 :root {
     --dark-wood: #2C2523;
+    --dark-wood-alt: rgba(44, 37, 35, .1);
     --cream: #FDFBF7;
     --wine-red: #8B2635;
     --wine-hover: #6B1D28;
@@ -89,6 +90,11 @@ span{
     padding: 0 5px;
     border-radius: 10px;
 }
+
+section{
+    padding-bottom: 50px;
+    border-bottom: 1px solid var(--dark-wood-alt);
+}
 /*Header*/
 
 .logo{
@@ -152,4 +158,29 @@ button.book-now{
     font-family: var(--font-serif);
 }
 
-/*Special Section/*
+/*Special Section*/
+.special-days{
+    max-width: 100%;
+    overflow: hidden;
+}
+
+.special-image{
+    width: 350px;
+    height: auto;
+    display: block;
+    margin: 30px auto;
+}
+
+.special-header{
+    font-size: var(--h3);
+    margin-bottom: 10px;
+}
+
+.special-text{
+    margin-bottom: 10px;
+    padding: 0 10px;
+}
+
+#bold-text{
+    font-weight: var(--heavy-weight);
+}
