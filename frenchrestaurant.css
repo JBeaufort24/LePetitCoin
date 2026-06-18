@@ -84,6 +84,7 @@ li{
 /*Header*/
 
 .logo{
+    padding-top: 10px;
     line-height: 20px;
 }
 
@@ -99,12 +100,15 @@ h1.logo span{
 /*Navigation Bar*/
 .french-navigation{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
-    padding: 1em;
+    align-content: center;
+    text-align: center;
+    padding: 1em .5em 3em .5em;
+    max-width: 100%;
 }
 
 .navigation-unit{
     display: flex;
-    gap: 1.5em;
+    gap: 1em;
 }
