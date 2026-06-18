@@ -112,3 +112,26 @@ h1.logo span{
     display: flex;
     gap: 1em;
 }
+
+/*Hero section*/
+.hero{
+    background: url(/french-restraurant-images/French-Bistro-Hero.jpg);
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+
+.hero-header{
+    color: var(--cream);
+    font-weight: var(--heavy-weight);
+    font-family: var(--font-serif);
+    position: relative;
+    top: 20px;
+}
+
+button.book-now{
+    margin-top: 40px;
+    margin-left: 20px;
+}
