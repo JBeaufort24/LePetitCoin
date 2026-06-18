@@ -95,6 +95,10 @@ section{
     padding-bottom: 50px;
     border-bottom: 1px solid var(--dark-wood-alt);
 }
+
+article{
+    padding: 10px;
+}
 /*Header*/
 
 .logo{
@@ -183,4 +187,13 @@ button.book-now{
 
 #bold-text{
     font-weight: var(--heavy-weight);
+}
+
+/*Information section*/
+.information{
+    text-align: center;
+}
+
+.information-text{
+    line-height: 30px;
 }
