@@ -84,7 +84,7 @@ li{
     font-size: var(--p-size);
 }
 
-span:not(.item-price){
+span:not(.item-price, .item-name){
     background: var(--golden-text);
     margin-top: 20px;
     padding: 0 5px;
@@ -194,7 +194,7 @@ button.book-now{
     text-align: center;
 }
 
-.information-text{
+.information-text, .about-text{
     line-height: 30px;
 }
 
@@ -205,7 +205,7 @@ button.book-now{
 }
 
 /*Menu Section*/
-.menu{
+.menu-section{
     background: var(--dark-wood);
 }
 
@@ -265,4 +265,10 @@ button.book-now{
     font-size: var(--p-size);
     color: var(--text-muted);
     font-style: italic;
+}
+
+#white-text{
+    color: var(--cream);
+    font-size: .6em;
+    font-family: var(--font-serif);
 }
