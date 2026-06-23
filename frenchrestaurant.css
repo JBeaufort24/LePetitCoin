@@ -270,3 +270,17 @@ button.book-now{
     font-size: .6em;
     font-family: var(--font-serif);
 }
+
+/*About Section*/
+.about-header{
+    font-family: var(--font-serif);
+    font-size: var(--h2);
+}
+
+.about-text{
+    padding: 5px 10px;
+}
+
+.about-sub-header{
+    padding: 15px 0 0 0;
+}
