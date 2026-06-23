@@ -207,12 +207,13 @@ button.book-now{
 /*Menu Section*/
 .menu-section{
     background: var(--dark-wood);
+    color: var(--cream);
 }
 
 .section-title {
     font-family: var(--font-serif);
     font-size: var(--h2);
-    color: var(--wine-red);
+    color: var(--cream);
     padding-bottom: .5em;
     margin-bottom: 1em;
     position: relative;
@@ -226,7 +227,7 @@ button.book-now{
 }
 
 .menu-item {
-    background: var(--cream);
+    background: inherit;
     padding: 2em 1em;
     border-radius: 5px;
     display: flex;
@@ -237,7 +238,7 @@ button.book-now{
 
 .menu-item:hover {
     transform: translateY(-2px);
-    box-shadow: 10px 5px 10px var(--wine-hover);
+    box-shadow: 1px 5px 1px var(--wine-hover);
 }
 
 .item-header {
@@ -250,20 +251,17 @@ button.book-now{
 .item-name {
     font-size: var(--h3);
     font-weight: var(--mild-weight);
-    color: var(--wine-red);
 }
 
 .item-price {
     font-family: var(--font-serif);
     font-size: var(--h3);
     font-weight: var(--heavy-weight);
-    color: var(--wine-red);
     white-space: nowrap;
 }
 
 .item-description {
     font-size: var(--p-size);
-    color: var(--text-muted);
     font-style: italic;
 }
 
