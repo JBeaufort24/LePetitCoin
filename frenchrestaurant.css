@@ -60,6 +60,7 @@ h3{
     font-size: var(--h3);
     font-family: var(--font-sans);
     font-weight: var(--light-weight);
+    padding-bottom: 5px;
 }
 
 p{
@@ -309,9 +310,31 @@ footer{
     text-align: center;
     padding: 1em .5em 0 .5em;
     max-width: 100%;
+    margin-top: -10px;
 }
 
 .unit-list {
     display: flex;
     padding: 0 10px;
+}
+
+.time, .location, .menu{
+    text-align: center;
+}
+
+.footer-links{
+    display: block;
+}
+
+.footer-link{
+    display: block;
+    color: var(--cream);
+}
+
+.footer-link:hover{
+    color: var(--wine-red);
+}
+
+.footer-text, .footer-link{
+    padding: 10px 0;
 }
