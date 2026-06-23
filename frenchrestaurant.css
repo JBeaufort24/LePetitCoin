@@ -271,6 +271,10 @@ button.book-now{
     font-family: var(--font-serif);
 }
 
+#menu-bottom{
+    padding: 0 20px;
+}
+
 /*About Section*/
 .about-header{
     font-family: var(--font-serif);
@@ -283,4 +287,31 @@ button.book-now{
 
 .about-sub-header{
     padding: 15px 0 0 0;
+}
+
+/*Footer Section*/
+footer{
+    background: var(--dark-wood);
+    color: var(--cream);
+}
+
+.footer-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: .5em;
+}
+
+.footer-navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    padding: 1em .5em 0 .5em;
+    max-width: 100%;
+}
+
+.unit-list {
+    display: flex;
+    padding: 0 10px;
 }
