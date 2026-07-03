@@ -223,7 +223,7 @@ button.book-now{
 /* Responsive Grid for Menu Items */
 .menu-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
     gap: .5em;
 }
 
@@ -294,6 +294,7 @@ button.book-now{
 footer{
     background: var(--dark-wood);
     color: var(--cream);
+    padding-top: 20px;
 }
 
 .footer-grid{
@@ -337,4 +338,14 @@ footer{
 
 .footer-text, .footer-link{
     padding: 10px 0;
+}
+
+@media screen and (max-width: 720px){
+    .footer-header{
+        display: none;
+    }
+    
+    .social-media, .location, .time, .menu{
+        margin-bottom: 20px;
+    }
 }
