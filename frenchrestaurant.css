@@ -343,8 +343,23 @@ button.book-now{
     font-family: sans-serif; /* Swap for your preferred brand font */
 }
 
-/* --- Responsive Media Queries --- */
+/*Footer Section*/
+.beaufort-digital-productions {
+    background: var(--dark-wood);
+    display: block; /* Changed from inline-block */
+    text-align: center;
+    padding: 20px 0; /* Optional: adds some breathing room top and bottom */
+}
 
+.beaufort-digital-productions a{
+    color: var(--cream);
+}
+
+.beaufort-digital-productions a:hover{
+    color: #e6ca65;
+}
+
+/* --- Responsive Media Queries --- */
 /* Tablets and medium screens */
 @media (max-width: 900px) {
     .gallery-masonry {
@@ -377,8 +392,6 @@ button.book-now{
     .gallery-masonry {
         column-count: 1;
     }
-    
-    
 }
 
 
