@@ -276,6 +276,110 @@ button.book-now{
     padding: 0 20px;
 }
 
+/*Masonary Gallery*/
+/* Container styling */
+.menu-gallery {
+    padding: 20px 10px;
+    background-color: var(--cream); /* Clean, elegant backdrop */
+}
+
+/* Pinterest Masonry Layout */
+.gallery-masonry {
+    column-count: 4;
+    column-gap: 10px;
+    width: 100%;
+    padding: 10px 5px 0 5px;
+    margin: 0 auto;
+    background: var(--dark-wood-alt);
+}
+
+/* Individual Cards */
+.gallery-item {
+    background-color: var(--cream);
+    display: inline-block; /* Crucial for column layout stability */
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.gallery-item img {
+    width: 100%;
+    display: block;
+    height: auto;
+    object-fit: cover;
+}
+
+/* Hover Effects & Text Overlay */
+.gallery-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.gallery-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    padding: 20px 15px 15px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .gallery-overlay {
+    opacity: 1;
+}
+
+.gallery-overlay h3 {
+    color: var(--cream);
+    margin: 0;
+    font-size: var(--h3);
+    font-weight: var(--mild-weight);
+    font-family: sans-serif; /* Swap for your preferred brand font */
+}
+
+/* --- Responsive Media Queries --- */
+
+/* Tablets and medium screens */
+@media (max-width: 900px) {
+    .gallery-masonry {
+        column-count: 3;
+    }
+}
+
+/* Small tablets / large phones */
+@media (max-width: 600px) {
+    .gallery-masonry {
+        column-count: 2;
+        column-gap: 12px;
+    }
+    .gallery-item {
+        margin-bottom: 12px;
+    }
+    /* Keep text visible on smaller touch devices instead of hover-only */
+    .gallery-overlay {
+        opacity: 1;
+        background: linear-gradient(transparent, rgba(0, 0, 0, 0.5));
+        padding: 10px;
+    }
+    .gallery-overlay h3 {
+        font-size: 0.95rem;
+    }
+}
+
+/* Mobile phones */
+@media (max-width: 400px) {
+    .gallery-masonry {
+        column-count: 1;
+    }
+}
+
+
 /*About Section*/
 .about-header{
     font-family: var(--font-serif);
