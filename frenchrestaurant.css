@@ -17,9 +17,9 @@
     --p-size: .9em;
     --header: 2em;
     --sub-header: 1.7em;
-    --h1: 1.9em;
-    --h2: 1.5em;
-    --h3: 1.1em;
+    --h1: clamp(1.9em, 2vw, 9em);
+    --h2: clamp(1.5em, 3vw, 2em);
+    --h3: clamp(1.1em, 2vw, 1.5em);
     
     --font-serif: 'Playfair Display', Georgia, serif;
     --font-sans: 'Lato', sans-serif;
@@ -45,19 +45,19 @@ h1, h2, h3{
 }
 
 h1{
-    font-size: clamp(1.9em, 4vw, 3em);
+    font-size: var(--h1);
     font-family: var(--font-serif);
     font-weight: var(--heavy-weight);
 }
 
 h2{
-    font-size: clamp(1.5em, 3vw, 2em);
+    font-size: var(--h2);
     font-family: var(--font-serif);
     font-weight: var(--mild-weight);
 }
 
 h3{
-    font-size: clamp(1.1em, 2vw, 1.5em);
+    font-size: var(--h3);
     font-family: var(--font-sans);
     font-weight: var(--light-weight);
     padding-bottom: 5px;
@@ -377,6 +377,8 @@ button.book-now{
     .gallery-masonry {
         column-count: 1;
     }
+    
+    
 }
 
 
