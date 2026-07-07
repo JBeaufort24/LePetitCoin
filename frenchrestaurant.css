@@ -17,7 +17,7 @@
     --p-size: .9em;
     --header: 2em;
     --sub-header: 1.7em;
-    --h1: clamp(1.9em, 2vw, 9em);
+    --h1: clamp(1.9em, 2vw, 2.5em);
     --h2: clamp(1.5em, 3vw, 2em);
     --h3: clamp(1.1em, 2vw, 1.5em);
     
